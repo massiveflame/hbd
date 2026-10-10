@@ -13,7 +13,7 @@ const inter = Inter({ subsets: ["latin"], variable: "--font-inter", display: "sw
 
 export const metadata: Metadata = {
   title: "Happy Birthday, Mahathi ✨",
-  description: "A little something for you.",
+  description: "A little something you can hide from atayya and mamayya.",
 };
 export const viewport: Viewport = { themeColor: "#0b0304", width: "device-width", initialScale: 1 };
 
