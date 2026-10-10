@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html { color-scheme: dark; }
+
+/* Embered midnight: gentle drifting orbs + ember twinkle */
+@keyframes ember-drift-a {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(60px, 40px, 0) scale(1.08); }
+}
+@keyframes ember-drift-b {
+  0%, 100% { transform: translate3d(0, 0, 0) scale(1); }
+  50% { transform: translate3d(-70px, -30px, 0) scale(1.05); }
+}
+@keyframes ember-twinkle {
+  0%, 100% { opacity: 0.15; transform: scale(0.8); }
+  50% { opacity: 0.85; transform: scale(1.15); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ember-orb, .ember-dot { animation: none !important; }
+}
